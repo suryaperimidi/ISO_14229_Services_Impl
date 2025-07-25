@@ -1,0 +1,5 @@
+../Core/Src/can_tp.c:41:13:can_tp_send_flow_control	24	static
+../Core/Src/can_tp.c:49:6:can_tp_receive_isr	32	static
+../Core/Src/can_tp.c:119:6:can_tp_handle_fc	16	static
+../Core/Src/can_tp.c:127:6:can_tp_send	40	static
+../Core/Src/can_tp.c:165:6:can_tp_tx_task	24	static

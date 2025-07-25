@@ -1,0 +1,4 @@
+../Core/Src/InputOutput_Control_functional_unit.c:16:6:uds_input_output_control_by_identifier	6
+../Core/Src/InputOutput_Control_functional_unit.c:64:6:send_positive_response_input_output_control_by_identifier	1
+../Core/Src/InputOutput_Control_functional_unit.c:80:6:send_negative_response_input_output_control_by_identifier	1
+../Core/Src/InputOutput_Control_functional_unit.c:92:6:handle_input_output_control_response	1

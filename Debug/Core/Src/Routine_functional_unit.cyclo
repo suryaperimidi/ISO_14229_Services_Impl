@@ -1,0 +1,7 @@
+../Core/Src/Routine_functional_unit.c:14:6:uds_routine_control	9
+../Core/Src/Routine_functional_unit.c:86:6:send_positive_response_routine_control	1
+../Core/Src/Routine_functional_unit.c:93:6:send_negative_response_routine_control	1
+../Core/Src/Routine_functional_unit.c:103:6:is_routine_supported	1
+../Core/Src/Routine_functional_unit.c:109:6:is_security_granted_for_routine	1
+../Core/Src/Routine_functional_unit.c:115:6:is_sub_function_supported	1
+../Core/Src/Routine_functional_unit.c:121:6:validate_routine_control_option	1
