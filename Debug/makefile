@@ -60,8 +60,8 @@ all: main-build
 main-build: uds_test0.1\ services.elf secondary-outputs
 
 # Tool invocations
-uds_test0.1\ services.elf uds_test0.1\ services.map: $(OBJS) $(USER_OBJS) C:\Users\surya.p\Documents\STM_14229_ser\uds_diagnostic\uds_test0.1\ services\uds_test0.1\ services\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "uds_test0.1 services.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\surya.p\Documents\STM_14229_ser\uds_diagnostic\uds_test0.1 services\uds_test0.1 services\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uds_test0.1 services.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+uds_test0.1\ services.elf uds_test0.1\ services.map: $(OBJS) $(USER_OBJS) C:\Users\suneel.kataraki\git\ISO_14229_Services_Impl\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "uds_test0.1 services.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\suneel.kataraki\git\ISO_14229_Services_Impl\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uds_test0.1 services.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
